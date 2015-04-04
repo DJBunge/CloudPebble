@@ -9,13 +9,13 @@
     "resources": {
         "media": [
             {
-                "file": "fonts/DigitalRegular.ttf",
-                "name": "DigiClock_28",
+                "file": "fonts/cour.ttf",
+                "name": "Courier_New_11",
                 "type": "font"
             },
             {
-                "file": "fonts/cour.ttf",
-                "name": "Courier_New_11",
+                "file": "fonts/DigitalRegular.ttf",
+                "name": "DigiClock_28",
                 "type": "font"
             }
         ]

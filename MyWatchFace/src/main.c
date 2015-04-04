@@ -12,8 +12,8 @@ static TextLayer *s_date_layer;
 static GFont s_time_font;
 static GFont connectedFnt;
 static Layer *mainLayer;
-static int borderSize = 7;
-static int borderRadius = 15;
+static int borderSize = 6;
+static int borderRadius = 12;
 
 static void update_time() {
   // Get a tm structure
