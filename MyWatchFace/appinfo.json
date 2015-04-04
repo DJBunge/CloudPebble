@@ -1,0 +1,35 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "djbunge.com",
+    "longName": "MyWatchFace",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/DigitalRegular.ttf",
+                "name": "DigiClock_28",
+                "type": "font"
+            },
+            {
+                "file": "fonts/cour.ttf",
+                "name": "Courier_New_11",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "MyWatchFace",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "24934dd0-43ad-49f0-98af-693757a9db6e",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
