@@ -83,7 +83,6 @@ static void main_window_load(Window *mainWindow) {
   //Create layer for connected text border
   GRect connectedBorder = GRect(4, 43, 136, 26);
   s_connected_border = layer_create(connectedBorder);
-  layer_set_update_proc(s_connected_border, drawBorder);
 
   GRect connectedDisplay = layer_get_bounds(s_connected_border);
   connectedDisplay.size.w= connectedDisplay.size.w-22;
@@ -104,7 +103,6 @@ static void main_window_load(Window *mainWindow) {
   //Create layer for charged text border
   GRect chargedBorder = GRect(4, 70, 136, 26);
   s_charged_border = layer_create(chargedBorder);
-  layer_set_update_proc(s_charged_border, drawBorder);
 
   GRect chargedDisplay = layer_get_bounds(s_charged_border);
   chargedDisplay.size.w= chargedDisplay.size.w-22;
